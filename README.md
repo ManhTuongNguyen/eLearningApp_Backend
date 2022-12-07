@@ -19,14 +19,22 @@ To get a local copy up and running follow these simple example steps.
    ```
    cd eLearningApp_Backend
    ```
-3. Install module from requirements.txt
+3. Install enviroment for this project
+   ```sh
+   python -m venv env
+   ```
+4. Active enviroment
+   ```sh
+   .\env\Scripts\activate
+   ```
+5. Install module from requirements.txt
    ```sh
    pip install -r requirements.txt
    ```
-4. Run project
+6. Run project
     ```
     py manage.py runserver
     ```
-**[This project currently available on here](https://mtuongpk.pythonanywhere.com/)**
+**[This project currently available on here](https://mtuongpk.pythonanywhere.com/)** (07/12/2022)
 
 ### Special thanks to https://dictionaryapi.dev/ for providing API
