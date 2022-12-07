@@ -31,7 +31,12 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    pip install -r requirements.txt
    ```
-6. Run project
+6. Migrate models
+   ```sh
+   py manage.py makemigrations
+   py manage.py migrate
+   ```
+7. Run project
     ```
     py manage.py runserver
     ```
