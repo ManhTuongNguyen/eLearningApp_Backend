@@ -1,12 +1,32 @@
-# eLearningApp_Backend
-Project cá nhân môn học lập trình mobile.
+## About The Project
+Name: eLearing
 
-Đề tài: Ứng dụng học tiếng anh - eLearning.
+Front-end build with [React native](https://reactnative.dev/)
 
-<b>Project sử dụng ngôn ngữ React native - front-end và Django rest framework - backend API</b>
+Back-end build with Django
 
-Repository này dùng để lưu trữ mã nguồn backend.
+[Link to repository front-end](https://github.com/ManhTuongNguyen/eLearningApp)
 
-[Repository lưu trữ mã nguồn Front-end - React native](https://github.com/ManhTuongNguyen/eLearningApp)
 
-## Làm thế nào để chạy?
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+### How to run
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ManhTuongNguyen/eLearningApp_Backend.git
+   ```
+2. Move to the project
+   ```
+   cd eLearningApp_Backend
+   ```
+3. Install module from requirements.txt
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Run project
+    ```
+    py manage.py runserver
+    ```
+**[This project currently available on here](https://mtuongpk.pythonanywhere.com/)**
+
+### Special thanks to https://dictionaryapi.dev/ for providing API
